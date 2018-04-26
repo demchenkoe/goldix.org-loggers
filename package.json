@@ -1,0 +1,24 @@
+{
+  "name": "@goldix.org/loggers",
+  "version": "0.0.2",
+  "description": "Pool of loggers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demchenkoe/goldix.org-loggers.git"
+  },
+  "keywords": [
+    "goldix.org",
+    "logger",
+    "pool"
+  ],
+  "author": "Eugene Demchenko <demchenkoev@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/demchenkoe/goldix.org-loggers/issues"
+  },
+  "homepage": "https://github.com/demchenkoe/goldix.org-loggers#readme"
+}
