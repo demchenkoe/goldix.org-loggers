@@ -40,7 +40,7 @@ class LoggersPool extends  LoggerProxy {
       options,
       poolOptions: this.poolOptions
     });
-    this.loggers.forEach(logger => {
+    this._loggers.forEach(logger => {
       promises.push(
         logger._log(level, message, payload, options)
       );
