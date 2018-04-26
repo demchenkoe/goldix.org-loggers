@@ -33,6 +33,10 @@ class LoggerProxy {
     return this._log('error', message, payload, options);
   }
   
+  debug(message, payload, options) {
+    return this._log('debug', message, payload, options);
+  }
+  
   getProfiler({options} = {}) {
     return (options && options.Profiler) ||  Profiler;
   }
