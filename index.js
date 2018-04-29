@@ -1,5 +1,4 @@
-const {LoggerConsole} = require('@goldix.org/logger-console');
-const {LoggerProxy} = require('./utils/LoggerProxy');
+const {LoggerConsole, LoggerProxy} = require('@goldix.org/logger-console');
 
 let loggerClasses = {
   LoggerConsole

@@ -1,6 +1,6 @@
 {
   "name": "@goldix.org/loggers",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "description": "Pool of loggers",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/demchenkoe/goldix.org-loggers#readme",
   "dependencies": {
-    "@goldix.org/logger-console": "0.0.1",
-    "@goldix.org/profiler": "0.0.1"
+    "@goldix.org/logger-console": "0.0.6"
   }
 }
